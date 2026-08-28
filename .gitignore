@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project: Generated runtime data
+sim/config_data/
+sim/map_data/
+sim/sim_replay/
+
+# Project: Generated LLM context
+llm_context.xml
+
+# Project: Dataset files (large .npy, optionally version controlled)
+dataset/*.npy
+
+# Project: Model weights in __pycache__ are irrelevant
+models/**/__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Experiment artifacts (independent storage, never versioned)
+testWM/
+
+# Weights / binaries (independent storage; no LFS server)
+*.pth
+*.zip
+*.npz
+*.npy
+*.tar.gz

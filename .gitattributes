@@ -1,0 +1,2 @@
+# Binaries (.pth/.zip/.npz/.npy) and experiment artifacts (testWM/) are
+# excluded via .gitignore (no LFS server on this machine).
